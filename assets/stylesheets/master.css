@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: black;
+  font-family:sans-serif;
+  font-size: 24px;
+  height: 100%;
+  width: 100%;
+  background-color: #cfcfc4;
+}
+
+label {
+  white-space: nowrap;
+}
+
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+  border-style: solid;
+  border-width: thin;
+  border-color: #cfcfc4;
+}
+
+.mg-tb-5 {
+  margin: 5px 0px;
+}
+
+.mg-tb-10 {
+  margin: 10px 0px;
+}
+
+.mg-lr-5 {
+  margin: 0px 5px;
+}
+
+.mg-lr-10 {
+  margin: 0px 10px;
+}
+
+.mg-10 {
+  margin: 10px;
+}
+
+.pd-10-5 {
+  padding: 10px 5px;
+}
+
+.pd-15-10 {
+  padding: 15px 10px;
+}
+
+.pd-lr-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-container {
+    height: 100%;
+    width: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mg-l15 {
+  margin-left: 15px;
+}
+
+.mg-l30 {
+  margin-left: 30px;
+}
+
+.mg-t30 {
+  margin-top: 30px;
+}
+
+.mg-lr-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.mg-r15 {
+  margin-right: 15px;
+}
+
+.mg-r30 {
+  margin-right: 30px;
+}
+
+.mg-r60 {
+  margin-right: 60px;
+}
+
+.mg-r30 {
+  margin-right: 30px;
+}
+
+.mg-t15 {
+  margin-top: 15px;
+}
+
+.mg-t10 {
+  margin-top: 10px;
+}
+
+
+.mg-tb-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.circle-image {
+  border-radius: 6px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-flow: row wrap;
+}
+
+.flex-col {
+  flex-flow: column nowrap
+}
+
+.align-left {
+  align-self: flex-start;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.card {
+  width: 80%;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-radius: 6px;
+  background-color: #fff;
+
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(179,179,179,1);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(179,179,179,1);
+  box-shadow: 0px 0px 5px 2px rgba(179,179,179,1);
+}
+
+.section-title{
+  font-size: 28px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.info-container label{
+  margin: 3px 0px
+}
+
+.subheader {
+  font-style: italic;
+  font-weight:600;
+  color: #444444;
+
+}
+
+.negative {
+  color: #cc3300;
+
+}
+
+.positive {
+  color: #339900;
+}
+
+#name {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+#student-number {
+  font-weight: 600;
+  font-size: 18px;
+}
